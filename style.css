@@ -1,0 +1,132 @@
+body{
+    margin: 0;
+    padding: 0;
+    outline: 0;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+@font-face {
+    font-family: 'Montserrat-Light';
+    src: url(fonts/Montserrat-Light.ttf);
+  }
+  @font-face{
+      font-family: 'Montserrat-Medium';
+      src: url(fonts/Montserrat-Medium.ttf);
+  }
+  @font-face{
+      font-family: 'Montserrat-Regular';
+      src: url(fonts/Montserrat-Regular.ttf);
+  }
+  @font-face {
+    font-family: 'Montserrat-SemiBold';
+    src: url(fonts/Montserrat-SemiBold.ttf);
+  }
+  @font-face {
+    font-family: 'Montserrat-Bold';
+    src: url(fonts/Montserrat-Bold.ttf);
+  }
+  @font-face {
+    font-family: 'Roboto-Regular';
+    src: url(fonts/Roboto-Regular.ttf);
+  }
+.navbar-nav{
+    background-color: #e2494b;
+    color: white;
+    font-size: 13px;
+    border-radius: 10px;
+    font-family: 'Montserrat-SemiBold';
+}
+.underline-background {
+    padding: 9px 25px;
+    border-radius: 15px;
+    color: white;
+    background-color: #e2494b; 
+}
+.line{
+    clear: both;
+    height: 1px;
+    background-color:#e2e2e2;
+    margin: 0px  auto 4% auto;
+    width: 82%;
+}
+.img-part{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.social-icons{
+    display: flex;
+    justify-content: space-between;
+    margin-right: 10px;
+}
+.measurement{
+    display: inline-block;
+    margin-right: 5px;
+    margin-top: 0;
+    margin-bottom: 0;}
+.read-more{
+font-size: 13px;
+color: #e2494b;
+font-family:'A';
+        }
+ .col-xs-2{
+            background:#00f;
+            color:#FFF;
+        }
+        .col-half-offset{
+            margin-left:4.166666667%
+        }
+        .single-footer p{
+            font-family: 'Roboto-Regular';
+            font-size: 12px;
+        }
+        .footer-section .contact-input{
+            margin-bottom: 13px;
+            line-height: 1.5rem;
+            border: none;
+            border-radius: 5px;
+            padding-left: 10px;
+        }
+        .text-input{
+            width: 223px;
+            height: 34px;
+        }
+        .message-input{
+            width: 223px;
+            height: 108px;
+        }
+        .button-1{
+            background-color: #e2494b;
+            color: white;
+            font-family: 'Roboto-regular';
+            font-size: 13px;
+        }
+        .footer{
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            background-color: #e2e2e2;
+            font-family: 'Roboto-Regular';
+            font-size: 12PX;
+            padding: 0 25px;
+            height: 55PX;
+        }
+        .bottom-part{
+            padding: 40px 0 60px 0;
+            position: relative;
+            background-color: #e2e2e2;
+        }
+        .footer-img{
+            display: flex;
+        } 
+        .footer-description{
+            padding-left: 15px;
+        } 
+        .line-bottom{
+            border: 1px  solid #c3c3c3;
+            margin: 0px;
+        
+            
+
+    }    
